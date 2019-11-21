@@ -1,0 +1,16 @@
+C:\Users\tjhunt\source\repos\DartsUI\DartsUI\bin\Debug\DartsUI.exe.config
+C:\Users\tjhunt\source\repos\DartsUI\DartsUI\bin\Debug\DartsUI.exe
+C:\Users\tjhunt\source\repos\DartsUI\DartsUI\bin\Debug\DartsUI.pdb
+C:\Users\tjhunt\source\repos\DartsUI\DartsUI\obj\Debug\Cricket.g.cs
+C:\Users\tjhunt\source\repos\DartsUI\DartsUI\obj\Debug\MainWindow.g.cs
+C:\Users\tjhunt\source\repos\DartsUI\DartsUI\obj\Debug\App.g.cs
+C:\Users\tjhunt\source\repos\DartsUI\DartsUI\obj\Debug\DartsUI_MarkupCompile.cache
+C:\Users\tjhunt\source\repos\DartsUI\DartsUI\obj\Debug\DartsUI_MarkupCompile.lref
+C:\Users\tjhunt\source\repos\DartsUI\DartsUI\obj\Debug\Cricket.baml
+C:\Users\tjhunt\source\repos\DartsUI\DartsUI\obj\Debug\MainWindow.baml
+C:\Users\tjhunt\source\repos\DartsUI\DartsUI\obj\Debug\DartsUI.g.resources
+C:\Users\tjhunt\source\repos\DartsUI\DartsUI\obj\Debug\DartsUI.Properties.Resources.resources
+C:\Users\tjhunt\source\repos\DartsUI\DartsUI\obj\Debug\DartsUI.csproj.GenerateResource.cache
+C:\Users\tjhunt\source\repos\DartsUI\DartsUI\obj\Debug\DartsUI.exe
+C:\Users\tjhunt\source\repos\DartsUI\DartsUI\obj\Debug\DartsUI.pdb
+C:\Users\tjhunt\source\repos\DartsUI\DartsUI\obj\Debug\GeneratedInternalTypeHelper.g.cs

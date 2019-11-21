@@ -1,0 +1,28 @@
+﻿<Window x:Class="DartsUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DartsUI"
+        mc:Ignorable="d"
+        FontSize="20"
+        Title="Darts Scoreboard" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" MinWidth="20"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*" MinWidth="20"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" MinHeight="20"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*" MinHeight="20"/>
+        </Grid.RowDefinitions>
+
+        <Button x:Name="btn_X01" Content="X01" Grid.Column="1" Grid.Row="1" Padding="5"/>
+        <Button x:Name="btn_Cricket" Content="Cricket" Grid.Column="1" Grid.Row="2" Padding="5"/>
+        <Button x:Name="btn_Fullboard" Content="Fullboard Cricket" Grid.Column="1" Grid.Row="3" Padding="5"/>
+    </Grid>
+</Window>

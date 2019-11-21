@@ -1,0 +1,116 @@
+﻿<Window x:Class="DartsUI.Cricket"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DartsUI"
+        mc:Ignorable="d"
+        FontSize="18"
+        Title="Darts Soreboard - Cricket" Height="450" Width="800" Background="#FF4FA64B">
+    <Grid>
+        <!-- Grid Column and Row Definitions -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+
+        <!-- Player 3 -->
+        <Rectangle Fill="BlanchedAlmond" IsHitTestVisible="False" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2"/>
+        <Button x:Name="p3_name" Content="Player 3" Grid.Column="1" Grid.Row="1" Background="#00DDDDDD" BorderBrush="#00707070" Width="auto"/>
+        <TextBlock x:Name="p3_score" Text="0" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" FontWeight="Bold"/>
+        <Button x:Name="p3_b20" Grid.Column="1" Grid.Row="3" local:ScoreButton.Player="3" local:ScoreButton.Points="20" local:ScoreButton.State="0" Click="ScoreBtn_Click"/>
+        <Button x:Name="p3_b19" Grid.Column="1" Grid.Row="4" local:ScoreButton.Player="3" local:ScoreButton.Points="19" local:ScoreButton.State="0" Click="ScoreBtn_Click"/>
+        <Button x:Name="p3_b18" Grid.Column="1" Grid.Row="5" local:ScoreButton.Player="3" local:ScoreButton.Points="18" local:ScoreButton.State="0" Click="ScoreBtn_Click"/>
+        <Button x:Name="p3_b17" Grid.Column="1" Grid.Row="6" local:ScoreButton.Player="3" local:ScoreButton.Points="17" local:ScoreButton.State="0" Click="ScoreBtn_Click"/>
+        <Button x:Name="p3_b16" Grid.Column="1" Grid.Row="7" local:ScoreButton.Player="3" local:ScoreButton.Points="16" local:ScoreButton.State="0" Click="ScoreBtn_Click"/>
+        <Button x:Name="p3_b15" Grid.Column="1" Grid.Row="8" local:ScoreButton.Player="3" local:ScoreButton.Points="15" local:ScoreButton.State="0" Click="ScoreBtn_Click"/>
+        <Button x:Name="p3_bul" Grid.Column="1" Grid.Row="9" local:ScoreButton.Player="3" local:ScoreButton.Points="25" local:ScoreButton.State="0" Click="ScoreBtn_Click"/>
+        <Border BorderThickness="2" BorderBrush="Black" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2"/>
+
+        <!-- Player 1 -->
+        <Rectangle Fill="BlanchedAlmond" IsHitTestVisible="False" Grid.Column="2" Grid.Row="1" Grid.RowSpan="2"/>
+        <Button x:Name="p1_name" Content="Player 1" Grid.Column="2" Grid.Row="1" Background="#00DDDDDD" BorderBrush="#00707070" Width="auto"/>
+        <TextBlock x:Name="p1_score" Text="0" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Center" FontWeight="Bold"/>
+        <Button x:Name="p1_b20" Grid.Column="2" Grid.Row="3" local:ScoreButton.Player="1" local:ScoreButton.Points="20" local:ScoreButton.State="0" Click="ScoreBtn_Click"/>
+        <Button x:Name="p1_b19" Grid.Column="2" Grid.Row="4" local:ScoreButton.Player="1" local:ScoreButton.Points="19" local:ScoreButton.State="0" Click="ScoreBtn_Click"/>
+        <Button x:Name="p1_b18" Grid.Column="2" Grid.Row="5" local:ScoreButton.Player="1" local:ScoreButton.Points="18" local:ScoreButton.State="0" Click="ScoreBtn_Click"/>
+        <Button x:Name="p1_b17" Grid.Column="2" Grid.Row="6" local:ScoreButton.Player="1" local:ScoreButton.Points="17" local:ScoreButton.State="0" Click="ScoreBtn_Click"/>
+        <Button x:Name="p1_b16" Grid.Column="2" Grid.Row="7" local:ScoreButton.Player="1" local:ScoreButton.Points="16" local:ScoreButton.State="0" Click="ScoreBtn_Click"/>
+        <Button x:Name="p1_b15" Grid.Column="2" Grid.Row="8" local:ScoreButton.Player="1" local:ScoreButton.Points="15" local:ScoreButton.State="0" Click="ScoreBtn_Click"/>
+        <Button x:Name="p1_bul" Grid.Column="2" Grid.Row="9" local:ScoreButton.Player="1" local:ScoreButton.Points="14" local:ScoreButton.State="0" Click="ScoreBtn_Click"/>
+        <Border BorderThickness="2" BorderBrush="Black" Grid.Column="2" Grid.Row="1" Grid.RowSpan="2"/>
+
+        <!-- Player 2 -->
+        <Rectangle Fill="BlanchedAlmond" IsHitTestVisible="False" Grid.Column="4" Grid.Row="1" Grid.RowSpan="2"/>
+        <Button x:Name="p2_name" Content="Player 2" Grid.Column="4" Grid.Row="1" Background="#00DDDDDD" BorderBrush="#00707070" Width="auto"/>
+        <TextBlock x:Name="p2_score" Text="0" Grid.Column="4" Grid.Row="2" HorizontalAlignment="Center" FontWeight="Bold"/>
+        <Button x:Name="p2_b20" Grid.Column="4" Grid.Row="3" local:ScoreButton.Player="2" local:ScoreButton.Points="20" local:ScoreButton.State="0" Click="ScoreBtn_Click"/>
+        <Button x:Name="p2_b19" Grid.Column="4" Grid.Row="4" local:ScoreButton.Player="2" local:ScoreButton.Points="20" local:ScoreButton.State="0" Click="ScoreBtn_Click"/>
+        <Button x:Name="p2_b18" Grid.Column="4" Grid.Row="5" local:ScoreButton.Player="2" local:ScoreButton.Points="20" local:ScoreButton.State="0" Click="ScoreBtn_Click"/>
+        <Button x:Name="p2_b17" Grid.Column="4" Grid.Row="6" local:ScoreButton.Player="2" local:ScoreButton.Points="20" local:ScoreButton.State="0" Click="ScoreBtn_Click"/>
+        <Button x:Name="p2_b16" Grid.Column="4" Grid.Row="7" local:ScoreButton.Player="2" local:ScoreButton.Points="20" local:ScoreButton.State="0" Click="ScoreBtn_Click"/>
+        <Button x:Name="p2_b15" Grid.Column="4" Grid.Row="8" local:ScoreButton.Player="2" local:ScoreButton.Points="20" local:ScoreButton.State="0" Click="ScoreBtn_Click"/>
+        <Button x:Name="p2_bul" Grid.Column="4" Grid.Row="9" local:ScoreButton.Player="2" local:ScoreButton.Points="20" local:ScoreButton.State="0" Click="ScoreBtn_Click"/>
+        <Border BorderThickness="2" BorderBrush="Black" Grid.Column="4" Grid.Row="1" Grid.RowSpan="2"/>
+
+        <!-- Player 4 -->
+        <Rectangle Fill="BlanchedAlmond" IsHitTestVisible="False" Grid.Column="5" Grid.Row="1" Grid.RowSpan="2"/>
+        <Button x:Name="p4_name" Content="Player 4" Grid.Column="5" Grid.Row="1" Background="#00DDDDDD" BorderBrush="#00707070" Width="auto"/>
+        <TextBlock x:Name="p4_score" Text="0" Grid.Column="5" Grid.Row="2" HorizontalAlignment="Center" FontWeight="Bold"/>
+        <Button x:Name="p4_b20" Grid.Column="5" Grid.Row="3" local:ScoreButton.Player="4" local:ScoreButton.Points="20" local:ScoreButton.State="0" Click="ScoreBtn_Click"/>
+        <Button x:Name="p4_b19" Grid.Column="5" Grid.Row="4" local:ScoreButton.Player="4" local:ScoreButton.Points="20" local:ScoreButton.State="0" Click="ScoreBtn_Click"/>
+        <Button x:Name="p4_b18" Grid.Column="5" Grid.Row="5" local:ScoreButton.Player="4" local:ScoreButton.Points="20" local:ScoreButton.State="0" Click="ScoreBtn_Click"/>
+        <Button x:Name="p4_b17" Grid.Column="5" Grid.Row="6" local:ScoreButton.Player="4" local:ScoreButton.Points="20" local:ScoreButton.State="0" Click="ScoreBtn_Click"/>
+        <Button x:Name="p4_b16" Grid.Column="5" Grid.Row="7" local:ScoreButton.Player="4" local:ScoreButton.Points="20" local:ScoreButton.State="0" Click="ScoreBtn_Click"/>
+        <Button x:Name="p4_b15" Grid.Column="5" Grid.Row="8" local:ScoreButton.Player="4" local:ScoreButton.Points="20" local:ScoreButton.State="0" Click="ScoreBtn_Click"/>
+        <Button x:Name="p4_bul" Grid.Column="5" Grid.Row="9" local:ScoreButton.Player="4" local:ScoreButton.Points="20" local:ScoreButton.State="0" Click="ScoreBtn_Click"/>
+        <Border BorderThickness="2" BorderBrush="Black" Grid.Column="5" Grid.Row="1" Grid.RowSpan="2"/>
+
+        <!-- Point Labels -->
+        <Rectangle Fill="BlanchedAlmond" IsHitTestVisible="False" Grid.Column="3" Grid.Row="1" Grid.RowSpan="2"/>
+        <Rectangle Fill="BlanchedAlmond" IsHitTestVisible="False" Grid.Column="3" Grid.Row="3" Grid.RowSpan="7"/>
+        <TextBlock Text="20" FontSize="24" FontWeight="Bold" Grid.Column="3" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10,0"/>
+        <TextBlock Text="19" FontSize="24" FontWeight="Bold" Grid.Column="3" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10,0"/>
+        <TextBlock Text="18" FontSize="24" FontWeight="Bold" Grid.Column="3" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10,0"/>
+        <TextBlock Text="17" FontSize="24" FontWeight="Bold" Grid.Column="3" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10,0"/>
+        <TextBlock Text="16" FontSize="24" FontWeight="Bold" Grid.Column="3" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10,0"/>
+        <TextBlock Text="15" FontSize="24" FontWeight="Bold" Grid.Column="3" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10,0"/>
+        <TextBlock Text="Bull" FontSize="24" FontWeight="Bold" Grid.Column="3" Grid.Row="9" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10,0"/>
+        <Border BorderThickness="2" BorderBrush="Black" Grid.Column="3" Grid.Row="1" Grid.RowSpan="2"/>
+
+        <!-- Borders -->
+        <Border BorderThickness="2" BorderBrush="Black" Grid.Column="1" Grid.Row="3" Grid.RowSpan="7"/>
+        <Border BorderThickness="2" BorderBrush="Black" Grid.Column="2" Grid.Row="3" Grid.RowSpan="7"/>
+        <Border BorderThickness="2" BorderBrush="Black" Grid.Column="3" Grid.Row="3" Grid.RowSpan="7"/>
+        <Border BorderThickness="2" BorderBrush="Black" Grid.Column="4" Grid.Row="3" Grid.RowSpan="7"/>
+        <Border BorderThickness="2" BorderBrush="Black" Grid.Column="5" Grid.Row="3" Grid.RowSpan="7"/>
+        <Border BorderThickness="1" BorderBrush="Black" Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="5"/>
+        <Border BorderThickness="1" BorderBrush="Black" Grid.Column="1" Grid.Row="4" Grid.ColumnSpan="5"/>
+        <Border BorderThickness="1" BorderBrush="Black" Grid.Column="1" Grid.Row="5" Grid.ColumnSpan="5"/>
+        <Border BorderThickness="1" BorderBrush="Black" Grid.Column="1" Grid.Row="6" Grid.ColumnSpan="5"/>
+        <Border BorderThickness="1" BorderBrush="Black" Grid.Column="1" Grid.Row="7" Grid.ColumnSpan="5"/>
+        <Border BorderThickness="1" BorderBrush="Black" Grid.Column="1" Grid.Row="8" Grid.ColumnSpan="5"/>
+        <Border BorderThickness="1" BorderBrush="Black" Grid.Column="1" Grid.Row="9" Grid.ColumnSpan="5"/>
+        <Border BorderThickness="2" BorderBrush="Black" Grid.Column="1" Grid.Row="3" Grid.RowSpan="7" Grid.ColumnSpan="5"/>
+    </Grid>
+
+
+</Window>

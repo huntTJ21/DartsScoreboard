@@ -1,0 +1,16 @@
+C:\Users\tjhunt\source\repos\DartsUI\DartsUI\bin\Release\DartsUI.exe.config
+C:\Users\tjhunt\source\repos\DartsUI\DartsUI\bin\Release\DartsUI.exe
+C:\Users\tjhunt\source\repos\DartsUI\DartsUI\bin\Release\DartsUI.pdb
+C:\Users\tjhunt\source\repos\DartsUI\DartsUI\obj\Release\Cricket.g.cs
+C:\Users\tjhunt\source\repos\DartsUI\DartsUI\obj\Release\MainWindow.g.cs
+C:\Users\tjhunt\source\repos\DartsUI\DartsUI\obj\Release\App.g.cs
+C:\Users\tjhunt\source\repos\DartsUI\DartsUI\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\tjhunt\source\repos\DartsUI\DartsUI\obj\Release\DartsUI_MarkupCompile.cache
+C:\Users\tjhunt\source\repos\DartsUI\DartsUI\obj\Release\DartsUI_MarkupCompile.lref
+C:\Users\tjhunt\source\repos\DartsUI\DartsUI\obj\Release\Cricket.baml
+C:\Users\tjhunt\source\repos\DartsUI\DartsUI\obj\Release\MainWindow.baml
+C:\Users\tjhunt\source\repos\DartsUI\DartsUI\obj\Release\DartsUI.g.resources
+C:\Users\tjhunt\source\repos\DartsUI\DartsUI\obj\Release\DartsUI.Properties.Resources.resources
+C:\Users\tjhunt\source\repos\DartsUI\DartsUI\obj\Release\DartsUI.csproj.GenerateResource.cache
+C:\Users\tjhunt\source\repos\DartsUI\DartsUI\obj\Release\DartsUI.exe
+C:\Users\tjhunt\source\repos\DartsUI\DartsUI\obj\Release\DartsUI.pdb
